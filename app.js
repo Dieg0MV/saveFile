@@ -10,7 +10,6 @@ const HTTP = require('http')
 const path = require('path')
 const cors = require('cors')
 const socketServer = require('socket.io')
-const multer = require('multer')
 
 const app = express()
 const server = HTTP.createServer(app)
@@ -29,6 +28,5 @@ module.exports = objets = {
     "path":path,
     "express": express,
     "app": app,
-    'multer':multer,
     'cors':cors
 }  
